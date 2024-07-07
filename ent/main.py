@@ -7,7 +7,7 @@ from ent.job import GroupByCorrelationPerStockJob
 from ent.utils import generate_file_path
 
 
-# TODO Add database support. Add sma_window, type_vol, depth, coordinates_basis
+# TODO Add sma_window, type_vol, depth, coordinates_basis. Add dependency management. Split by packages.
 
 def execute_job(config):
     job = GroupByCorrelationPerStockJob(config)
